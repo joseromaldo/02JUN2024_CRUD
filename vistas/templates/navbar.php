@@ -1,6 +1,6 @@
 <nav class="navbar fixed-top navbar-expand-lg bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/02JUN2024_CRUD/vistas/producto/index.php"><img src="/src/images/logo.avif" alt="Logo" width="30" height="30">TIENDA CRUD</a>
+    <a class="navbar-brand" href="#"><img src="/02JUN2024_CRUD/src/images/logo.avif" alt="Logo" width="30" height="30">TIENDA CRUD</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -15,7 +15,6 @@
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="/02JUN2024_CRUD/vistas/ventas/index.php"><i class="bi bi-plus-circle me-2"></i>Ingreso de ventas</a></li>
-            <!-- <li><a class="dropdown-item" href="/crud_2024/vistas/producto/buscar.php"><i class="bi bi-search me-2"></i>Buscar</a></li> -->
           </ul>
         </li>
         <li class="nav-item dropdown">

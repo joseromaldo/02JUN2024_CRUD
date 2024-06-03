@@ -4,7 +4,7 @@
 
     $objCliente = new Cliente();
     $clientes = $objCliente->buscar();
-    var_dump($clientes);
+   
 ?>
 
 <?php include_once '../templates/header.php'; ?>
@@ -32,14 +32,9 @@
                 <option value="<?= $cliente['cliente_id'] ?>"><?= $cliente['cliente_nombre'] .  " " . $cliente['cliente_apellido']  ?></option>
             <?php endforeach ?>
         </select>
-        <div class="row mb-3">
+        <div class="row mt-3">
             <div class="col">
                 <button type="submit" class="btn btn-primary w-100">Guardar</button>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <a href="../../controladores/producto/buscar.php" class="btn btn-info w-100">Buscar</a>
             </div>
         </div>
     </form>

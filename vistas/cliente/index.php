@@ -32,11 +32,7 @@
                 <button type="submit" class="btn btn-primary w-100">Guardar</button>
             </div>
         </div>
-        <div class="row">
-            <div class="col">
-                <a href="../../controladores/cliente/buscar.php" class="btn btn-info w-100">Buscar</a>
-            </div>
-        </div>
+        
     </form>
 </div>
 

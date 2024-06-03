@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="shortcut icon" href="../../src/images/logo.avif" type="image/x-icon">
-    <title>TIEN</title>
+    <title>TIENDA CRUD</title>
 </head>
 <body>
 <?php include_once 'navbar.php'?>

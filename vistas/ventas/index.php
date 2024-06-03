@@ -1,19 +1,19 @@
 <?php 
     require '../../modelos/Cliente.php';
     require '../../modelos/Producto.php';
+    require '../../modelos/Encabezado.php';
 
     $objCliente = new Cliente();
     $clientes = $objCliente->buscar();
     $objProducto = new Producto();
     $productos = $objProducto->buscar();
-    // var_dump($productos);
 ?>
 
 <?php include_once '../templates/header.php'; ?>
 
 <h1 class="text-center">Ventas</h1>
 <div class="row justify-content-center">
-    <form action="/crud_2024/controladores/ventas/guardar.php" method="POST" class="border bg-light shadow rounded p-4 col-lg-6">
+    <form action="/02JUN2024_CRUD/controladores/ventas/guardar.php" method="POST" class="border bg-light shadow rounded p-4 col-lg-6">
         <div class="row mb-3">
             <div class="col">
                 <label for="fact_fecha">Fecha de la venta</label>
