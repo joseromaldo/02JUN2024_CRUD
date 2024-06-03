@@ -5,6 +5,8 @@
     $_GET['prod_id'] = filter_var( base64_decode($_GET['prod_id']), FILTER_SANITIZE_NUMBER_INT);
     $producto = new Producto();
 
+    
+
     $productoRegistrado = $producto->buscarPorId($_GET['prod_id']);
     var_dump($productoRegistrado);
 ?>
